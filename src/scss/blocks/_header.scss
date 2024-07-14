@@ -1,0 +1,40 @@
+.header {
+  border-bottom: 1px solid #CACAD6;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  height: 80px;
+}
+
+.menu {
+  display: flex;
+  gap: 0 20px;
+}
+
+.logo {
+  justify-self: center;
+}
+
+.basket {
+  position: relative;
+  justify-self: end;
+}
+
+.basket--on span {
+  font-size: 11px;
+  line-height: 0;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  right: -2px;
+  bottom: 0;
+}

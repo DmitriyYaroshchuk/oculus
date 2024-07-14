@@ -1,0 +1,29 @@
+.promo {
+  padding-bottom: 100px;
+}
+
+.promo__inner {
+  min-height: 500px;
+  background-image: url("../images/promo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  position: relative;
+}
+
+.promo__btn {
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 80px;
+}

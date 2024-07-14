@@ -1,0 +1,142 @@
+@media screen and (max-width: 1140px){
+  .footer .menu {
+    display: none;
+  }
+  .footer .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 992px){
+  .tabs {
+    display: block;
+  }
+  .tabs__btn {
+    display: block;
+    column-count: 2;
+    margin-bottom: 25px;
+  }
+  .tabs__btn-item {
+    display: block;
+  }
+  .game__inner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  .accessories__items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 820px) {
+
+
+  .equipment__box {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .contacts__inner {
+    display: block;
+  }
+  .contacts__form {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 66px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .buy-btn {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .top {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .nav {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .features {
+    padding: 50px 0;
+  }
+
+  .features__titles {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .tabs__content-item {
+    display: block;
+    position: relative;
+    height: 0;
+  }
+.tabs__content-item--active {
+  height: auto;
+}
+  .video {
+    width: auto;
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  .tabs__btn {
+    margin-bottom: 20px;
+  }
+  .buy__bg {
+    font-size: 300px;
+    line-height: 300px;
+  }
+  .equipment__box {
+    display: block;
+  }
+  .equipment__box-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .equipment__box-text {
+    margin-bottom: 10px;
+  }
+  .accessories__items {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .accessories__text {
+    font-size: 28px;
+  }
+  .footer .nav {
+   flex-direction: column;
+    height: auto;
+  }
+  .social {
+    order: -1;
+    margin-bottom: 20px;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .title {
+    font-size: 48px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .tabs__btn {
+    column-count: 1;
+  }
+  .features__text {
+    font-size: 32px;
+  }
+  .game__inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
